@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        my2widget.cpp
+        my2widget.cpp \
+    dialogsetting.cpp
 
-HEADERS  += my2widget.h
+HEADERS  += my2widget.h \
+    dialogsetting.h
 
-FORMS    += my2widget.ui
+FORMS    += my2widget.ui \
+    dialogsetting.ui

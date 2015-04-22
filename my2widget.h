@@ -2,6 +2,7 @@
 #define MY2WIDGET_H
 
 #include <QWidget>
+#include "dialogsetting.h"
 
 namespace Ui {
 class My2Widget;
@@ -17,6 +18,8 @@ public:
 
 private:
     Ui::My2Widget *ui;
+public slots:
+    void OpenSett();
 };
 
 #endif // MY2WIDGET_H
